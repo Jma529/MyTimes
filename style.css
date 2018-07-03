@@ -55,7 +55,6 @@ header nav {
   min-height:100%;
   display: flex;
   overflow: scroll;
-  border: 1px solid black;
   padding: 0px;
   margin: 0px;
   position: relative;
@@ -64,29 +63,35 @@ header nav {
 }
 .column1 {
   width: 630px;
-  border: 3px solid black;
   min-height: 100%;
   padding: 0px;
   margin: 40px 0;
 }
-.box2,.box3 {
-  border: 3px solid black;
+.box2 {
   display: block;
+  margin-right: 32px;
+}
+.box3 {
+  float: right;
+  display: block;
+  height: 250px;
 }
 .tuna {
+  display: block;
   border-bottom: 1px solid black;
   padding-top: 0px;
-  margin: 0px;
+  margin-top: 0px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
   color: white;
   height: 300px;
   font-size: 40px;
   text-align: left;
   font-family: georgia;
+  width: 630px;
+  justify-content: center;
 }
 .camera {
-  border-top: 1px solid black;
-  margin: 0px;
+  margin-top:15px;
   padding: 0px;
   font-weight: normal;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
@@ -101,14 +106,12 @@ header nav {
   font-size: 24px;
 }
 .box2 h1 {
-  border-bottom: 1px solid black;
   border: 1px;
 }
 .content p {
   font-size: 16px;
 }
 .earth {
-  border-top: 1px solid black;
   margin: 0px;
   padding: 0px;
   font-weight: normal;
@@ -121,25 +124,25 @@ header nav {
   font-weight: bold;
 }
 .column2 {
+  display: flex;
+  flex-direction: column;
   width: 300px;
-  border: 3px solid black;
-  min-height: 100%;
   padding: 0px;
-  margin: 40px 30px;
+  margin-right: 32px;
 }
 .column3 {
   width: 240px;
-  float: right;
-  border: 1px solid black;
-  min-height: 100%;
   padding: 0px;
-  margin: 40px auto;
-  margin-right: 30px;
+  margin-right: 32px;
+  display: flex;
+  flex-direction: column;
 }
 .box5 {
+  display: flex;
+  flex-direction: column;
   padding: 0px;
   margin: 0px;
-  border-bottom: 3px solid black;
+  width: 300px;
 }
 .box5 h1 {
   font-size: 24px;
@@ -148,13 +151,11 @@ header nav {
   font-size: 16px;
 }
 .cats {
-  border-bottom: 1px solid black;
   padding: 0px;
   margin: 0px;
   font-weight: normal;
 }
 .box8 {
-  border: 1px solid black;
 }
 .box8 h1 {
   font-size: 18px;
@@ -169,4 +170,25 @@ header nav {
   font-weight: bold;
   text-align: center;
   height: 300px;
+}
+p {
+  font-family: georgia;
+  font-size: 17px;
+}
+.monumentvalley {
+  margin-top: 16px;
+
+}
+.box1 p {
+  display: block;
+
+}
+.addedcolumn {
+  width: 300px;
+  display: flex;
+}
+.bottomcolumns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
