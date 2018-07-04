@@ -104,8 +104,11 @@ header nav {
   padding top: 116px;
   margin: 0 auto 78px auto;
   width: 1232px;
+  flex-direction: column;
 }
-
+.columns {
+  display: flex;
+}
 .column {
   display: flex;
   flex-direction: column;
