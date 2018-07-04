@@ -1,7 +1,7 @@
 /*Universal Styles */
 
 body {
-  margin:0
+  margin: 0;
   font-family: "Georgia", serif;
   font-size: 17px;
   color: black;
@@ -93,7 +93,7 @@ header nav {
 
 .logo img {
   width: 70px;
-  height: 60px
+  height: 60px;
   margin-right: 12px;
 }
 
@@ -172,4 +172,37 @@ img.cookie {
 }
 .bite span {
   padding-left: 11px;
+}
+/* Footer */
+
+footer {
+  align-items: center;
+  background-color: MediumAquamarine;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana;
+  font-size: 12px;
+  height: 325px;
+  justify-content: center;
+  margin: auto;
+  width: 100%;
+}
+
+footer .title {
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
 }
